@@ -8,7 +8,14 @@
 import scrapy
 
 
+<<<<<<< HEAD
 class DemozItem(scrapy.Item):
     title = scrapy.Field()
     link = scrapy.Field()
     desc = scrapy.Field() 
+=======
+class TutorialItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    pass
+>>>>>>> 0cbb7e2e37ac443d26a11b5c5505bff78dc754a9
