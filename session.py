@@ -20,6 +20,7 @@ with requests.Session() as s:
     print(LOGIN_INFO)
     
     login_req = s.post('https://www.clien.net/service/login', data=LOGIN_INFO)
+<<<<<<< HEAD
     print(login_req.status_code) # 200이면 성공
     
     if login_req.status_code != 200:
@@ -34,3 +35,6 @@ with requests.Session() as s:
     
     print(title[0].text) 
     print(contents[0].text) 
+=======
+    print(login_req.status_code)
+>>>>>>> bb99df2b8b265678c6424d1a6ab055e18d92681f
