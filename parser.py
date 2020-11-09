@@ -26,10 +26,6 @@ data = {}
 for title in my_titles:
     data[title.text] = title.get('href')
 
-<<<<<<< HEAD
-with open(os.path.join(BASE_DIR,
-                       '../../../../AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/gustj2005/crawlstudy/result.json'), 'w+') as join_file:
-=======
+
 with open(os.path.join(BASE_DIR,'result.json'),'w+') as join_file:
->>>>>>> bb99df2b8b265678c6424d1a6ab055e18d92681f
     json.dump(data,join_file)
